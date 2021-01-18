@@ -1,0 +1,13 @@
+//
+//  Config-MultiEnvByXCConfigWOConflict.Debug.xcconfig
+//  MultiEnvByXCConfigWOConflict
+//
+//  Created by EZen on 2021/1/18.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include "Pods/Target Support Files/Pods-MultiEnvByXCConfigWOConflict/Pods-MultiEnvByXCConfigWOConflict.debug.xcconfig"
+
+OTHER_LDFLAGS = $(inherited) -framework "AFNetworking"

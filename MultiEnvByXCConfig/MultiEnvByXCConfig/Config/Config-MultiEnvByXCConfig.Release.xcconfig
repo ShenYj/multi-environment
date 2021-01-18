@@ -1,0 +1,14 @@
+//
+//  Config-MultiEnvByXCConfig.Release.xcconfig
+//  MultiEnvByXCConfig
+//
+//  Created by EZen on 2021/1/18.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+HOST_URL = 127.0.0.2
+// ld -> build settings 中的 Other Linker Flags
+// OTHER_LDFLAGS = -framework "AFNetworking"
+
